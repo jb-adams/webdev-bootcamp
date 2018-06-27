@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Form Demo</title>
+  </head>
+  <body>
+    <!-- random inputs -->
+    <!--
+    <input type="text">
+    <input type="color">
+    <input type="radio">
+    <input type="password">
+    -->
+
+    <h1>Login</h1>
+
+    <!-- action - where the form sends data to -->
+    <!-- method - what HTTP method (get/post) -->
+
+    <!-- Form Validations - simple HTML validations to ensure that the inputs
+         have been entered correctly (check for completion, correct format, etc)
+         required - boolean attribute for input
+
+    -->
+    <form action="" method="get">
+      <label>
+        Email:
+        <input name="email" type="email" placeholder="email" required>
+      </label>
+      <label>
+        Username:
+        <input name="username" type="text" placeholder="username" required>
+      </label>
+      <label>
+        Password:
+        <input name="password" type="password" placeholder="password" required>
+      </label>
+      <input type="submit">
+    </form>
+  </body>
+</html>

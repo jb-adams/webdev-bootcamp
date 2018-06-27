@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Inputs Demo</title>
+  </head>
+  <body>
+
+    <form method="get">
+      <p>Do you prefer cats or dogs?</p>
+
+      <!-- input type="radio" - radio button, can select one from a group
+           define groups by the "name" attribute, and define each button's
+           value by the "value" attribute -->
+      <label>
+        Dogs:
+        <input name="petChoice" id="dogs" type="radio" value="DOGS">
+      </label>
+      <label>
+        Cats:
+        <input name="petChoice" id="cats" type="radio" value="CATS">
+      </label>
+
+      <p>What's your favorite color?</p>
+      <!-- select tag - dropdown menu
+           dropdown possibilites defined by <option> tag -->
+      <select style="display:block;" name="color">
+        <option value="red">Red</option>
+        <option value="orange">Orange</option>
+        <option value="yellow">Yellow</option>
+      </select>
+
+      <!-- textarea -->
+      <textarea name="paragraph" rows="10" cols="50"></textarea>
+
+      <button>Go!</button>
+    </form>
+
+
+  </body>
+</html>
