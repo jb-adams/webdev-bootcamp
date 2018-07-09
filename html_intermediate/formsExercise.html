@@ -45,17 +45,43 @@
         </label>
         <label>
           Password:
-          <input name="password" type="password" placeholder="your password"
+          <input name="password" type="password" placeholder="your password" pattern=".{5,10}"
           required>
         </label>
       </div>
 
       <!-- Birthday Dropdowns -->
       <div>
+        <label>
+          Birthday
+          <select name="Month">
+            <option value="Month" selected disabled>Month</option>
+            <option value="May">May</option>
+            <option value="July">July</option>
+            <option value="October">October</option>
+            <option value="December">December</option>
+          </select>
+          <select name="Day">
+            <option value="Day">Day</option>
+            <option value="13">13</option>
+            <option value="16">16</option>
+            <option value="21">21</option>
+            <option value="27">27</option>
+            <option value="31">31</option>
+          </select>
+          <select name="Year">
+            <option value="Year">Year</option>
+            <option value="1988">1988</option>
+            <option value="1989">1989</option>
+            <option value="1990">1990</option>
+          </select>
       </div>
 
       <!-- Agree to terms and Conditions -->
       <div>
+        <label>
+          I agree to the terms and conditions
+          <input name="agree" type="checkbox">
       </div>
 
       <!-- Submit Button -->

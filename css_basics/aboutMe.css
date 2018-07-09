@@ -1,0 +1,57 @@
+/*
+The General Rule for CSS
+selector {
+  property: value;
+  anotherProperty: value;
+}
+*/
+
+
+/* Our First Stylesheet */
+h1 {
+  color: red;
+}
+
+h4 {
+  color: purple;
+}
+
+li {
+  color: red;
+}
+
+
+/* CSS Colors */
+/* Hexadecimal Color Styles */
+h1 {
+  color: #2E98A6;
+}
+
+/* RGB Color Styles */
+h4 {
+  /* color: rgb(198,102,44); */
+  color: rgba(198,102,44,0.99);
+}
+
+
+/* Background and Border */
+h4 {
+  background: #00FFFF;
+}
+
+body {
+  background: linear-gradient(
+    rgba(0,127,0,0.5),
+    rgba(0,127,0,0.5)
+  ),
+  url("mybackground.jpg");
+}
+
+h1 {
+  border-color: yellow;
+  border-width: 5px;
+  border-style: solid;
+
+  /* Border shortcut syntax*/
+  border: 5px solid yellow;
+}

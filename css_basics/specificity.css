@@ -1,0 +1,34 @@
+/* inheritance: if we specify a style on a parent element, then children
+   will also inherit this style */
+
+/* eg. all elements inherit red color styled on the body */
+body {
+  color: red;
+}
+
+/* specificity: styles pertaining to more specific elements will override
+   styles pertaining to less specific elements */
+
+/* eg. style on the <p> tag overrides the style from the <body> tag for the
+   <p> element, as the <p> style is MORE SPECIFIC */
+p {
+  color: green;
+}
+
+ul {
+  color: blue;
+}
+
+li {
+  color: orange;
+}
+
+/* styles for a class selector is more specific than an element selector */
+.highlight {
+  color: yellow;
+}
+
+/* id selector is more specific than class selector */
+#special {
+  color: pink;
+}

@@ -1,0 +1,14 @@
+/* Element selector: selects all elements of a particular type */
+li {
+  border: 2px solid red;
+}
+
+/* ID selector: select an element with a particular id */
+#special {
+  background: orange;
+}
+
+/* Class selector: selects all elements of a given class */
+.completed {
+  text-decoration: line-through;
+}

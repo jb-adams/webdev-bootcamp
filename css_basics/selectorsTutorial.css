@@ -1,0 +1,48 @@
+/* Element */
+li {
+
+}
+
+/* Class */
+.hello {
+
+}
+
+/* Id */
+#name {
+
+}
+
+/* Star - applies to every single element */
+* {
+  border: 1px solid lightgrey;
+}
+
+/* Descendant Selector - takes 2 or more selectors chained together */
+/* selects all <a> tags inside of an <li> tag */
+li a {
+  color: red;
+}
+
+/* Adjacent Selector - select elements that come after another element */
+/* select all <ul> tags that come directly after an <h4> tag */
+h4 + ul {
+  border: 4px solid red;
+}
+
+/* Attribute Selector - select elements based off any attribute */
+/* select all elements where the attribute "href" is for google */
+a[href="http://www.google.com"] {
+  background: blue;
+}
+
+/* nth of type - takes a number, then adjusts the nth number of that type */
+/* change the background color of the 3rd ul on the page */
+ul:nth-of-type(3) {
+  background: purple;
+}
+
+/* adjust css of every even-numbered li */
+ul:nth-of-type(even) {
+  background: red;
+}
