@@ -1,0 +1,56 @@
+/* font-family */
+p {
+  font-family: Raleway;
+}
+
+h1 {
+  font-family: Indie Flower;
+}
+
+/* font-size */
+/* ems are better for sizing fonts than px, as ems are dynamic */
+
+body {
+  font-size: 10px;
+}
+
+h1 {
+  font-size: 5.0em;
+}
+
+p {
+  font-size: 2.0em;
+}
+
+span {
+  font-size: 2.0em;
+}
+
+/* font-weight */
+/* numeric font weight can be from 100 to 800 (in 100 increments) */
+p {
+  font-weight: normal;
+}
+
+/* line-height */
+p {
+  line-height: 2;
+}
+
+/* text-align */
+h1 {
+  text-align: right;
+}
+
+p {
+  text-align: center;
+}
+
+/* text-decoration */
+h1 {
+  text-decoration: line-through;
+}
+
+p {
+  text-decoration: underline;
+}

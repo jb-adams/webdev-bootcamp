@@ -1,0 +1,27 @@
+body {
+  font-family: Lato;
+}
+
+h1 {
+  text-align: center;
+}
+
+table {
+  margin: auto;
+  width: 50.0em;
+  height: 50.0em;
+}
+
+td {
+  width: 33.3%;
+}
+
+.center-row {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+.center-col {
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+}
