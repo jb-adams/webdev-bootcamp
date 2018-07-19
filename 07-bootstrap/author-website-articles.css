@@ -1,0 +1,290 @@
+@font-face {
+    font-family: bebas;
+    src: url("fonts/Bebas/TrueType/Bebas.ttf");
+}
+
+@font-face {
+    font-family: spectral-regular;
+    src: url("fonts/Spectral-Regular.ttf");
+}
+
+@font-face {
+  font-family: spectral-italic;
+  src: url("fonts/Spectral-Italic.ttf")
+}
+
+@font-face {
+    font-family: spectralsc-extrabold;
+    src: url("fonts/SpectralSC-ExtraBold.ttf");
+}
+
+@font-face {
+    font-family: simplifica;
+    src: url("fonts/SIMPLIFICA/SIMPLIFICA.ttf");
+}
+
+body {
+  padding-top: 50px;
+  background: #215e21;
+}
+
+.navbar-signup {
+  padding-top: 5px;
+  padding-left: 2.5px;
+  padding-right: 2.5px;
+}
+
+.btn {
+  flex: 1 1 auto;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: black;
+ /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+}
+.btn:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: white;
+}
+
+.my-buttons {
+  background-image: linear-gradient(to right, #32CD32 0%, #80DF38 51%, #FFBF00 100%);
+  /* lime green #01FF70 */
+  /* #80DF38 middle green */
+}
+
+#navbar-container {
+  width: 95%;
+}
+
+.my-solid-background {
+  border-radius: 25px;
+  /* background: #FFFFFFD0; */
+  background: #000000D0;
+  border: 1px solid #FFBF00;
+  color: white;
+  padding: 2.5vh;
+  font-family: spectral-regular;
+  /* font-family: spectralsc-extrabold; */
+}
+
+#my-navbar {
+  background: #215e21;
+  border-bottom: 1px solid #FFBF00;
+  font-family: spectral-regular;
+  font-size: 1.5em;
+}
+
+#navbar-title {
+  font-size: 1.5em;
+}
+
+#my-jumbotron {
+  color: #0892d0;
+  border-bottom: 1px solid #FFBF00;
+  background: #215e21;
+  background: linear-gradient(#01FF7050, #FFBF0050), url("jumbotron-img1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  text-align: center;
+  margin-bottom: 1.0em;
+
+}
+
+#navbar-title,
+.navbar-nav>li>a.navbar-link {
+  color: white;
+  text-decoration: none;
+  padding-bottom: 0;
+  border-bottom: 1px solid transparent;
+  transition: color 250ms linear, border-bottom 250ms linear;
+}
+
+#navbar-title:hover {
+  color: #FFBF00;
+}
+
+.navbar-nav>li>a.navbar-link:hover {
+  color: #FFBF00;
+  border-color: #FFBF00;
+}
+
+#my-navbar-collapse {
+  max-height: 100vh;
+  border-color: #FFBF00;
+}
+
+#my-navbar-collapse-button {
+  border: 1px solid #FFBF00;
+
+}
+#my-navbar-collapse-button:hover,
+#my-navbar-collapse-button:focus {
+  background-color: #FFBF00;
+}
+
+#footer {
+  font-family: spectral-italic;
+  text-align: center;
+  /* border-radius: 25px; */
+  color: white;
+  border-top: 1px solid #FFBF00;
+  border-bottom: 1px solid #FFBF00;
+  padding: 1.0vh;
+  background: linear-gradient(#000000D0, #000000D0), url("quote-banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.articleRow {
+  border-radius: 25px;
+  border: 2px solid #FFBF00;
+  height: 30vh;
+  margin:1.0em;
+  background: #FFFFFF;
+  color: black;
+}
+
+.articleTitle {
+  text-align: center;
+  font-family: spectral-regular;
+  font-size: 1.5em;
+  padding: 0.25em;
+}
+
+.my-solid-background2 {
+  border-radius: 25px;
+  background: #000000D0;
+  border: 1px solid #FFBF00;
+  color: white;
+  font-family: spectral-regular;
+  width: 50%;
+  margin: auto;
+  margin-top: 2.0em;
+}
+
+.spacer {
+  margin-top: 1.0em;
+  margin-bottom: 1.0em;
+}
+
+.image {
+  width: 100%;
+  height: 30vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 0;
+  margin:0;
+
+}
+
+/*
+.my-overlay {
+  z-index: 1000;
+  height: 33vh;
+  width: 100vw;
+  position: absolute;
+}
+
+.my-overlay:hover {
+  background: linear-gradient(#01FF70D0, #FFBF00D0);
+  opacity: 0.6;
+}
+*/
+
+.image1 {
+  background-image: url(images/blessed-astra-a-realm-unlike-any-other.jpg);
+}
+.image1:hover {
+  background: linear-gradient(#01FF70A0, #FFBF00A0), url("images/blessed-astra-a-realm-unlike-any-other.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.image2 {
+  background-image: url(images/devatri-creator-of-the-universe-sustainer-of-humankind.jpg);
+}
+.image2:hover {
+  background: linear-gradient(#01FF70A0, #FFBF00A0), url("images/devatri-creator-of-the-universe-sustainer-of-humankind.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.image3 {
+  background-image: url(images/sonan-jewel-of-auryas-eye.jpg);
+}
+.image3:hover {
+  background: linear-gradient(#01FF70A0, #FFBF00A0), url("images/sonan-jewel-of-auryas-eye.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.image4 {
+  background-image: url(images/magic-and-caste.jpg);
+}
+.image4:hover {
+  background: linear-gradient(#01FF70A0, #FFBF00A0), url("images/magic-and-caste.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.image5 {
+  background-image: url(images/the-goddess-knight.jpg);
+}
+.image5:hover {
+  background: linear-gradient(#01FF70A0, #FFBF00A0), url("images/the-goddess-knight.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.image6 {
+  background-image: url(images/mana-the-fuel-of-magic.jpg);
+}
+.image6:hover {
+  background: linear-gradient(#01FF70A0, #FFBF00A0), url("images/mana-the-fuel-of-magic.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.image7 {
+  background-image: url(images/the-forest-dwellers.jpg);
+}
+.image7:hover {
+  background: linear-gradient(#01FF70A0, #FFBF00A0), url("images/the-forest-dwellers.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.image8 {
+  background-image: url(images/the-flesh-eaters.jpg);
+}
+.image8:hover {
+  background: linear-gradient(#01FF70A0, #FFBF00A0), url("images/the-flesh-eaters.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.image9 {
+  background-image: url(images/the-princess-and-the-slave.jpg);
+}
+.image9:hover {
+  background: linear-gradient(#01FF70A0, #FFBF00A0), url("images/the-princess-and-the-slave.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}

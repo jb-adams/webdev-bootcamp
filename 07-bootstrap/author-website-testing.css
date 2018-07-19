@@ -1,0 +1,216 @@
+@font-face {
+    font-family: bebas;
+    src: url("fonts/Bebas/TrueType/Bebas.ttf");
+}
+
+@font-face {
+    font-family: spectral-regular;
+    src: url("fonts/Spectral-Regular.ttf");
+}
+
+@font-face {
+  font-family: spectral-italic;
+  src: url("fonts/Spectral-Italic.ttf")
+}
+
+@font-face {
+    font-family: spectralsc-extrabold;
+    src: url("fonts/SpectralSC-ExtraBold.ttf");
+}
+
+@font-face {
+    font-family: simplifica;
+    src: url("fonts/SIMPLIFICA/SIMPLIFICA.ttf");
+}
+
+body {
+  padding-top: 50px;
+  background: #215e21;
+}
+
+.navbar-signup {
+  padding-top: 5px;
+  padding-left: 2.5px;
+  padding-right: 2.5px;
+}
+
+.btn {
+  flex: 1 1 auto;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: black;
+ /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+}
+.btn:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: white;
+}
+
+.my-buttons {
+  background-image: linear-gradient(to right, #32CD32 0%, #80DF38 51%, #FFBF00 100%);
+  /* lime green #01FF70 */
+  /* #80DF38 middle green */
+}
+
+#navbar-container {
+  width: 98%;
+}
+
+.my-solid-background {
+  border-radius: 25px;
+  /* background: #FFFFFFD0; */
+  background: #000000D0;
+  border: 1px solid #FFBF00;
+  color: white;
+  padding: 2.5vh;
+  font-family: spectral-regular;
+  /* font-family: spectralsc-extrabold; */
+}
+
+#my-navbar {
+  background: #215e21;
+  border-bottom: 1px solid #FFBF00;
+  font-family: spectral-regular;
+  font-size: 1.5em;
+}
+
+#navbar-title {
+  font-size: 1.5em;
+}
+
+#my-jumbotron {
+  height: 100vh;
+  color: #0892d0;
+  border-bottom: 1px solid #FFBF00;
+  background: #215e21;
+  background: linear-gradient(#01FF7050, #FFBF0050), url("jumbotron-img1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding-top: 0;
+
+}
+
+#navbar-title,
+.navbar-nav>li>a.navbar-link {
+  color: white;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: color 250ms linear, border-bottom 250ms linear;
+  padding-bottom: 0;
+  font-size: 0.90em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+.navbar-nav>li>a.navbar-link:hover {
+  color: #FFBF00;
+  border-color: #FFBF00;
+  background: #00000000;
+}
+
+#navbar-title:hover {
+  color: #FFBF00;
+}
+
+#my-navbar-collapse {
+  max-height: 100vh;
+  border-color: #FFBF00;
+}
+
+#my-navbar-collapse-button {
+  border: 1px solid #FFBF00;
+}
+
+#my-navbar-collapse-button:hover,
+#my-navbar-collapse-button:focus {
+  background-color: #FFBF00;
+}
+
+#social-bar {
+  background-color: #00000000;
+  width:100%;
+  transition: background-color 250ms linear;
+  font-size: 2.0em;
+  text-align: right;
+}
+#social-bar:hover {
+  background-color: #000000D0;
+}
+
+#test-list {
+  right: 0;
+}
+
+.list-inline>li>a.social-link {
+  color: white;
+  transition: color 250ms linear;
+}
+
+.list-inline>li>a.social-link:hover {
+  color: #FFBF00;
+}
+
+#footer {
+  font-family: spectral-italic;
+  text-align: center;
+  /* border-radius: 25px; */
+  color: white;
+  border-top: 1px solid #FFBF00;
+  border-bottom: 1px solid #FFBF00;
+  padding: 1.0vh;
+  background: linear-gradient(#000000D0, #000000D0), url("quote-banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.image {
+  width: 100%;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+}
+
+.image1 {
+  background: url(https://source.unsplash.com/girwkupS11Q);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.image1:hover {
+  background: linear-gradient(#01FF7050, #FFBF0050), url(https://source.unsplash.com/girwkupS11Q);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.image2 {
+  background-image: url(https://source.unsplash.com/kdEX01p83GI);
+}
+.image3 {
+  background-image: url(https://source.unsplash.com/fqT7zVm_9Qs);
+}
+.image4 {
+  background-image: url(https://source.unsplash.com/Ys-DBJeX0nE);
+}
+.image5 {
+  background-image: url(https://source.unsplash.com/5O6c_pLziXs);
+}
+.image6 {
+  background-image: url(https://source.unsplash.com/ytRmS_hMaSk);
+}
+.image7 {
+  background-image: url(https://source.unsplash.com/4u2U8EO9OzY);
+}
+.image8 {
+  background-image: url(https://source.unsplash.com/Q1p7bh3SHj8);
+}
+.image9 {
+  background-image: url(https://source.unsplash.com/kCrrUx7US04);
+}
