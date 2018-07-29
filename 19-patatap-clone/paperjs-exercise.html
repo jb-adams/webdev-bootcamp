@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="paperjs-exercise.css">
+    <script type="text/javascript" src="paper-full.js"></script>
+    <script type="text/paperscript" canvas="myCanvas">
+
+      var rgb = "rgb(RED, 0, BLUE)";
+      var red = 0
+
+      for (var x=0; x<=2000; x+=100) {
+        blue = 0
+
+        for (var y=0; y<=2000; y+=100) {
+          var myCircle = new Path.Circle(new Point(x, y), 10);
+          myCircle.fillColor = rgb.replace("RED",red).replace("BLUE",blue);
+          blue += (255/20);
+        }
+
+      red += (255/20);
+
+      }
+    </script>
+  </head>
+  <body>
+    <canvas id="myCanvas" resize></canvas>
+  </body>
+</html>

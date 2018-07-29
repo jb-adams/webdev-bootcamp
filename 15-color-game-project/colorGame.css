@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100vh;
+}
+
+body {
+  text-align: center;
+}
+
+.all {
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+}
+
+.list-left {
+  text-align: left;
+}
+
+.list-right {
+  text-align: right;
+}
+
+nav#my-navbar.navbar {
+  margin: 0;
+}
+
+#frame {
+  /* height: 100vh; */
+}
+
+#header {
+  min-height: 20vh;
+  background: #3a72a7;
+  color: white;
+}
+
+#options {
+  background: white;
+  color: #3a72a7;
+}
+
+#mainGame {
+  background: black;
+  min-height: 75vh;
+}
+
+#message {
+  margin: 0;
+  padding-top: 20px;
+  text-transform: none;
+  font-size: 2.0em;
+}
+
+#gameFrame {
+  max-width: 750px;
+}
+
+.visible {
+  color: white;
+}
+
+.option {
+  padding: 1.0em;
+  margin-left: 1.0em;
+  margin-right: 1.0em;
+}
+
+.potential-difficulty {
+  background: #DDDDDD;
+}
+
+.active-difficulty {
+  background: #3a72a7;
+  color: white;
+}
+
+.color-tile {
+  margin-top: 20px;
+  border-radius: 25px;
+  width: 100%;
+  padding-bottom: 100%;
+}

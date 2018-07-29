@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Color Game</title>
+    <link rel="stylesheet" href="colorGame.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  </head>
+  <body>
+
+    <div id="frame" class="">
+      <div id="header" class="all">
+        <div class="container">
+          <h1>The Great Color Guessing Game</h1>
+          <h2>Your Color Is</h2>
+          <h2 id="correctColDisplay">Color</h2>
+        </div>
+      </div>
+
+      <div id="options" class="all">
+        <nav id="my-navbar" class="navbar">
+          <div class="container">
+            <div>
+              <ul class="nav navbar-nav">
+                <li class="option" id="new-colors">New Colors</li>
+              </ul>
+              <ul class="nav navbar-nav navbar-right">
+                <li class="option" id="easy">Easy</li>
+                <li class="option" id="hard">Hard</li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <div id="mainGame" class="all">
+        <div id="gameFrame" class="container">
+        </div>
+        <div id="message-div">
+          <p class="visible" id="message">Click the tile you think matches the color code</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.1.4.js" integrity="sha256-siFczlgw4jULnUICcdm9gjQPZkw/YPDqhQ9+nAOScE4=" crossorigin="anonymous"></script>
+    <script src="bootstrap.js"></script>
+    <script type="text/javascript" src="colorGame.js"></script>
+  </body>
+</html>
